@@ -162,6 +162,16 @@ figure {
   fill: var(--selectionColor);
   transition: 0.2s;
 }
+.specials-box {
+  background-color: var(--colorGhostWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
 
 /* ================= Main========================== */
 .main-section {
