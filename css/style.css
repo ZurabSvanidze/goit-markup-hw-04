@@ -147,6 +147,22 @@ figure {
 .calling-head:focus {
   color: var(--selectionColor);
 }
+/* ================icons============ */
+.icon-top {
+  margin-right: 10px;
+}
+.top-icon {
+  fill: var(--fontColorGrey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-icon:hover,
+.top-icon:focus {
+  fill: var(--selectionColor);
+  transition: 0.2s;
+}
+
 /* ================= Main========================== */
 .main-section {
   background-color: var(--backgroundColorDarkgrey);
