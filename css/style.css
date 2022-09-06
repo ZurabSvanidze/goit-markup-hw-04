@@ -190,21 +190,60 @@ figure {
   border-color: var(--selectionColor);
   transition: 0.4s;
 }
+
 .social-media-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-bottom: 30px;
-}
-
-.social-icon {
   fill: #afb1b8;
 }
+
+.instagram {
+  width: 44px;
+  height: 44px;
+}
+.instagram:hover {
+  fill: var(--colorWhite);
+  background-color: var(--selectionColor);
+  border-radius: 50%;
+}
+.twitter {
+  width: 44px;
+  height: 44px;
+}
+.twitter:hover {
+  fill: var(--colorWhite);
+  background-color: var(--selectionColor);
+  border-radius: 50%;
+}
+.facebook {
+  width: 44px;
+  height: 44px;
+}
+.facebook:hover {
+  fill: var(--colorWhite);
+  background-color: var(--selectionColor);
+  border-radius: 50%;
+}
+.linkedin {
+  width: 44px;
+  height: 44px;
+}
+.linkedin:hover {
+  fill: var(--colorWhite);
+  background-color: var(--selectionColor);
+  border-radius: 50%;
+}
+
 /* ================= Main========================== */
 .main-section {
-  background-color: var(--backgroundColorDarkgrey);
+  background-color: rgba(47, 48, 58, 0.4);
   background-image: url(../images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
   color: var(--colorWhite);
   display: flex;
   flex-direction: column;
