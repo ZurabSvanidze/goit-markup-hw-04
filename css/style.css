@@ -172,7 +172,35 @@ figure {
   margin-bottom: 30px;
   border-radius: 4px;
 }
+.clients-icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.logos {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+}
+.logos:hover,
+.logos:focus {
+  fill: var(--selectionColor);
+  border-color: var(--selectionColor);
+  transition: 0.4s;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
 
+.social-icon {
+  fill: #afb1b8;
+}
 /* ================= Main========================== */
 .main-section {
   background-color: var(--backgroundColorDarkgrey);
@@ -290,6 +318,7 @@ figure {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin: 0;
 }
 .name {
   font-family: 'Roboto';
@@ -310,7 +339,25 @@ figure {
   text-align: center;
   margin: 0 0 30px 0;
 }
-
+/* =====================Nasi klienci==================== */
+.our-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--colorWhite);
+}
+.client-main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fontColorBlack);
+  margin: 0px 0 50px 0;
+}
 /* ====================Footer======================================= */
 footer {
   background-color: var(--backgroundColorDarkgrey);
@@ -318,9 +365,9 @@ footer {
 .footer-box {
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
-  gap: 20px;
-  padding: 60px 0;
+  flex-direction: row;
+  gap: 70px;
+  padding: 55.5px 0;
 }
 .bottom-contacts {
   display: flex;
@@ -361,6 +408,31 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+/* =====================bottom icons============== */
+.footer-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-icons {
+  display: flex;
+  gap: 10px;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--colorWhite);
 }
 /* ====================Portfolio================= */
 .button-style {
