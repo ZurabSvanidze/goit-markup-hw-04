@@ -405,9 +405,10 @@ footer {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  gap: 70px;
   padding: 55.5px 0;
+  gap: 70px;
 }
+
 .bottom-contacts {
   display: flex;
   flex-direction: column;
@@ -416,6 +417,11 @@ footer {
   padding: 0;
   gap: 9px;
 }
+.bottom-icons {
+  width: 44px;
+  height: 44px;
+}
+
 .address {
   font-family: 'Roboto';
   font-size: 14px;
@@ -457,22 +463,48 @@ footer {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
-}
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 70px;
 }
 .bottom-icons {
   display: flex;
   gap: 10px;
+  fill: var(--colorWhite);
+  padding: 0;
+}
+.instagram-bottom {
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--colorWhite);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
+.facebook-bottom {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.twitter-bottom {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.linkedin-bottom {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.instagram-bottom:hover,
+.facebook-bottom:hover,
+.twitter-bottom:hover,
+.linkedin-bottom:hover {
+  fill: var(--colorWhite);
+  background-color: var(--selectionColor);
+  border-radius: 50%;
+}
+
 /* ====================Portfolio================= */
 .button-style {
   background-color: var(--colorWhite);
