@@ -185,8 +185,13 @@ figure {
   height: 92px;
   fill: #afb1b8;
 }
-.logos:hover,
-.logos:focus {
+.company-link:focus {
+  outline: none;
+}
+.company-link:focus svg {
+  fill: var(--selectionColor);
+}
+.logos:hover {
   fill: var(--selectionColor);
   border-color: var(--selectionColor);
   transition: 0.4s;
@@ -198,7 +203,13 @@ figure {
   align-items: center;
   gap: 10px;
   margin-bottom: 30px;
+}
+.social-link {
   fill: #afb1b8;
+}
+.social-link:focus {
+  fill: var(--selectionColor);
+  outline: none;
 }
 
 .instagram {
@@ -398,6 +409,7 @@ figure {
   color: var(--fontColorBlack);
   margin: 0px 0 50px 0;
 }
+
 /* ====================Footer======================================= */
 footer {
   background-color: var(--backgroundColorDarkgrey);
