@@ -94,6 +94,7 @@ figure {
   display: flex;
   list-style: none;
   margin-left: auto;
+  margin-right: 0;
   padding: 32px 0 32px 0;
 }
 
@@ -239,8 +240,8 @@ figure {
 
 /* ================= Main========================== */
 .main-section {
-  background: linear-gradient(#2f303a);
-  background-image: url(../images/background-image.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
+    url(../images/background-image.jpg);
   background-repeat: no-repeat;
   background-size: 1600px;
   background-position: center;
@@ -465,7 +466,9 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   margin-left: 70px;
+  margin-top: 10px;
 }
+
 .bottom-icons {
   display: flex;
   gap: 10px;
