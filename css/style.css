@@ -36,6 +36,8 @@ p {
   padding: 0;
 }
 .section {
+  max-width: 1600px;
+  margin: 0 auto;
   padding: 94px 0px;
 }
 figure {
@@ -190,6 +192,7 @@ figure {
 }
 .company-link:focus svg {
   fill: var(--selectionColor);
+  border-color: var(--selectionColor);
 }
 .logos:hover {
   fill: var(--selectionColor);
@@ -208,8 +211,13 @@ figure {
   fill: #afb1b8;
 }
 .social-link:focus {
-  fill: var(--selectionColor);
   outline: none;
+}
+.social-link:focus svg {
+  fill: var(--colorWhite);
+
+  background-color: var(--selectionColor);
+  border-radius: 50%;
 }
 
 .instagram {
@@ -256,6 +264,7 @@ figure {
   background-repeat: no-repeat;
   background-size: 1600px;
   background-position: center;
+  background-color: var(--backgroundColorDarkgrey);
   color: var(--colorWhite);
   display: flex;
   flex-direction: column;
@@ -263,6 +272,8 @@ figure {
   align-items: center;
   width: 100%;
   height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .main-head {
   font-family: 'Roboto';
