@@ -8,7 +8,6 @@
   --colorGhostWhite: #f5f4fa;
 }
 body {
-  background-color: var(--backgroundColorLihtgrey);
   color: var(--fontColorBlack);
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-size: 14px;
@@ -36,8 +35,6 @@ p {
   padding: 0;
 }
 .section {
-  max-width: 1600px;
-  margin: 0 auto;
   padding: 94px 0px;
 }
 figure {
@@ -454,6 +451,7 @@ footer {
   color: var(--colorWhite);
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-top: 20px;
 }
 .email-foot {
   font-family: 'Roboto';
